@@ -14,7 +14,7 @@ const Hero = () => {
             />
             <p className={`${styles.paragraph} ml-2`}>
               <span className="text-white">20%</span> Descuento En {" "}
-              <span className="text-white">Cyberpack</span> Año 2023
+              <span className="text-white">CyberWebpack</span> Año 2023
             </p>
 
           </div>
