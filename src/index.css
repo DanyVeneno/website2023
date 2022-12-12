@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,9 +7,9 @@
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #f3efe0 -278.56%,
+    #f05454 -78.47%,
+    #222831 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -21,12 +21,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #f7fee7 0.89%,
-    #ecfccb 17.23%,
-    #d9f99d 42.04%,
-    #bef264 55.12%,
-    #a3e635 71.54%,
-    #84cc16 100%
+    #232235 0.89%,
+    #fccbcb 17.23%,
+    #f9a39d 42.04%,
+    #974a4a 55.12%,
+    #df8181 71.54%,
+    #f05454 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,30 +37,30 @@
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
-    #f7fee7 -43.27%,
-    #ecfccb -21.24%,
-    #d9f99d 12.19%,
-    #bef264 29.82%,
-    #a3e635 51.94%,
-    #84cc16 90.29%
+    #e7ebfe -43.27%,
+    #222831 -21.24%,
+    #405366 12.19%,
+    #30475e 29.82%,
+    #ec6868 51.94%,
+    #f05454 90.29%
   );
 }
 
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #b0f7fa -278.56%,
+    #90f5fc -78.47%,
+    #08d4f8 91.61%
   );
 }
 
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #f3efe0 -278.56%,
+    #f05454 -78.47%,
+    #222831 91.61%
   );
 }
 
@@ -125,12 +125,12 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #2af1ff 100%);
   filter: blur(123px);
 }
 
 .pink__gradient {
-  background: linear-gradient(90deg, #27272a 0%, #d9f99d 100%);
+  background: linear-gradient(90deg, #27272a 0%, #9d9ff9 100%);
   filter: blur(900px);
 }
 
